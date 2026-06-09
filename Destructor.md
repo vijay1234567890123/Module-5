@@ -21,9 +21,20 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+```
+class Demo:
+    def __init__(self):
+        self.status = "Alive"
+        print("Object status:", self.status)
 
+    def __del__(self):
+        print("Destructor called... Object is being destroyed.")
+
+d = Demo()
+del d
+```
 ## 🧪 Output
+<img width="597" height="152" alt="image" src="https://github.com/user-attachments/assets/ce14e753-fd80-4ecc-809b-b3c3377625a6" />
 
 ## Result
-
+Thus , hence proved
